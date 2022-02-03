@@ -1,2 +1,2 @@
-# boan_news-crawling
-crawling practice at boanews.com
+# python-scraping
+python scraping practice

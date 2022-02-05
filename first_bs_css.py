@@ -12,3 +12,11 @@ nameList = bs.findAll('span', {'class':'green'})
 for name in nameList:
     #get_text를 사용해서 모든 태그를 지우고 유니코드 텍스트만 들어 있는 문자열 반환
     print(name.get_text())
+
+#매개변수 중 text라는 변수가 있는데 문서에서 찾고자 하는 문자열을 입력하면
+#문서에 해당 문자열이 들어있는 갯수만큼 리스트 형태에 쌓임
+#그래서 문자열이 몇개 있는지 확인할 수 있음
+List=bs.findAll(text='the prince')
+print(List)
+#문자열 몇개  있는지 알 수 있는 코드
+print(len(List))
